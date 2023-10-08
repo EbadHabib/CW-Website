@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&amp;display=swap');
+
+img {
+     border: none;
+     outline: none;
+     max-width: 100%;
+}
+ 
+a, .btn, button {
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    outline: medium none;
+}
+
+a img, iframe {
+    border: none;
+}
+
+p {
+    color: #666666;
+    line-height: 26px;
+    margin: 0 0 15px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+a, a:active, a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #232323;
+}
+
+a:hover {
+    color: #232323;
+}
+
+a {
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+b, strong {
+    font-weight: 600;
+}
+ 
+/* Default CSS */
+.default-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.default-padding.bottom-less {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* ============================================================== 
+     # Banner 
+=================================================================== */
+
+/* Slider Zoom Effect */
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+}
+@-moz-keyframes zoom {
+    from {
+        -moz-transform: scale(1, 1);
+    }
+    to {
+        -moz-transform: scale(1.5, 1.5);
+    }
+}
+
+@-o-keyframes zoom {
+    from {
+        -o-transform: scale(1, 1);
+    }
+    to {
+        -o-transform: scale(1.5, 1.5);
+    }
+}
+
+@keyframes zoom {
+    from {
+         transform: scale(1, 1);
+    }
+    to {
+         transform: scale(1.5, 1.5);
+    }
+}
+
+.banner-area a {
+    margin-right: 10px;
+    margin-top: 10px;
+ }
+
+.banner-area.text-center a,
+.banner-area .text-center a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.banner-area p {
+    padding-right: 25%;
+ }
+
+.banner-area.text-center p ,
+.banner-area .text-center p  {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.banner-area.text-large h1 {
+    font-size: 100px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.banner-area.text-medium h1 {
+    font-size: 80px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.banner-area.text-dark p {
+    color: #232323;
+}
+
+/* ============================================================== 
+     # Services 
+=================================================================== */
+.site-heading h2 {
+    display: block;
+    font-weight: 800;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    position: relative;
+    line-height: 1.4;
+}
+
+.site-heading.less-info h2 {
+    margin-bottom: 0;
+}
+
+.site-heading h5 {
+    color: #666666;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    overflow: inherit;
+}
+
+.bg-dark .site-heading h5 {
+    color: #cccccc;
+}
+
+.site-heading.clean h2 {
+    padding-bottom: 0;
+}
+
+.site-heading.clean h2 span {
+  color: #f1cf69;
+}
+
+.site-heading h2 span {
+    color: #f1cf69;
+}
+
+.site-heading.barber h2 span {
+    color: #bc9355;
+}
+
+.site-heading p {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0 7%;
+}
+
+.site-heading h2::before {
+    background: #FF1949 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 40px;
+}
+
+.site-heading h2::after {
+    background: #FF1949 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: 20px;
+    position: absolute;
+    width: 5px;
+}
+
+.site-heading.text-left h2::before {
+    left: 0;
+    margin-left: 0;
+}
+
+.site-heading.text-left h2::after {
+    left: 45px;
+    margin-left: 0;
+}
+
+.site-heading h2 span {
+    color: #f1cf69;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  margin-top: -5px;
+}
+ .site-heading {
+     margin-bottom: 60px;
+     overflow: hidden;
+}
+
+/* ============================================================== 
+     # Video 
+=================================================================== */
+ @keyframes animatedButton {
+     0% {
+         box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+     50% {
+         box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+     100% {
+         box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
+    }
+}
+
+/* ============================================================== 
+     # Contact 
+=================================================================== */
+ 
+ #google-maps iframe {
+     border: 15px solid #ffffff;
+     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+     -o-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+     display: block;
+     height: 100%;
+     right: 0;
+     top: 0;
+     width: 100%;
+     min-height: 380px;
+}
+ 
+/* ============================================================== 
+     # Team Members 
+=================================================================== */
+ .team-member {
+     overflow: hidden;
+}
+ .team-member, .team-member .team-img {
+     position: relative;
+}
+ .team-member .team-img img {
+     height: auto;
+     width: 100%;
+}
+ .team-member .team-info {
+     bottom: 0;
+     left: 0;
+     padding: 14px 20px;
+     position: absolute;
+     text-align: center;
+     -webkit-transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -ms-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+     transition: all 0.35s ease-in-out;
+     width: 100%;
+     z-index: 1;
+}
+
+.team-members-area.standard .team-member .team-info {
+    left: 30px;
+    right: 30px;
+    width: auto;
+    bottom: 30px;
+}
+
+.team-members-area.standard .team-member:hover .team-info {
+    bottom: -100px;
+}
+
+.team-members-area.standard .team-member .team-info h4 {
+    color: #232323;
+    font-size: 16px;
+}
+
+.team-members-area.standard .team-member .team-info span {
+    color: #666666;
+    font-size: 11px;
+}
+
+.team-members-area.standard .team-member .team-info::after {
+    background: #ffffffd8;
+    opacity: 1;
+    border-radius: 7px;
+}
+
+ .team-member .team-info::after {
+     background: #1c1c1c none repeat scroll 0 0;
+     content: "";
+     height: 100%;
+     left: 0;
+     opacity: 0.7;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+}
+ .team-overlay {
+     bottom: 0;
+     left: 0;
+     margin: 0;
+     opacity: 0;
+     position: absolute;
+     right: 0;
+     top: 0;
+     -webkit-transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -ms-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+     transition: all 0.35s ease-in-out;
+     z-index: 9;
+}
+ .team-overlay::after {
+     background: #1c1c1c none repeat scroll 0 0;
+     content: "";
+     height: 100%;
+     left: 0;
+     opacity: 0.9;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+}
+ .team-member:hover .team-overlay, 
+ .team-member:hover .team-overlay .bio, 
+ .team-member:hover .team-overlay .social-link {
+     opacity: 1;
+}
+ .team-member:hover .team-info {
+     bottom: -100%;
+}
+ .team-member:hover .team-overlay .social-link {
+     bottom: 10%;
+}
+ .team-member:hover .team-overlay .bio {
+     top: 35%;
+}
+ .team-overlay .bio {
+     opacity: 0;
+     padding: 0 20px;
+     position: absolute;
+     top: 0;
+     transform: translateY(-50%);
+     -webkit-transition: all 0.3s ease 0.2s;
+     -moz-transition: all 0.3s ease 0.2s;
+     -ms-transition: all 0.3s ease 0.2s;
+     -o-transition: all 0.3s ease 0.2s;
+     transition: all 0.3s ease 0.2s;
+     width: 100%;
+}
+ .team-overlay .social-link {
+     bottom: 0;
+     font-size: 35px;
+     opacity: 0;
+     position: absolute;
+     text-align: center;
+     -webkit-transform:translateY(50%);
+     -moz-transform: translateY(50%);
+     -ms-transform: translateY(50%);
+     transform: translateY(50%);
+     -webkit-transition: all 0.3s ease 0.2s;
+     -moz-transition: all 0.3s ease 0.2s;
+     -ms-transition: all 0.3s ease 0.2s;
+     -o-transition: all 0.3s ease 0.2s;
+     transition: all 0.3s ease 0.2s;
+     width: 100%;
+}
+ .team-member .team-info h4 {
+     color: #ffffff;
+     font-weight: 600;
+     margin-bottom: 5px;
+}
+ .team-member .team-info span {
+     color: #ffffff;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+ .team-member .team-overlay .bio h4 {
+     color: #ffffff;
+     font-weight: 600;
+}
+ .team-member .team-overlay .bio p {
+     color: #ffffff;
+}
+ .team-overlay .social-link a {
+     color: #ffffff;
+     font-size: 20px;
+     margin: 5px;
+}
+ .team-overlay .social-link a:hover {
+     color: #e22a31;
+}
+
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    #google-maps iframe {
+        position: inherit;
+        height: 375px;
+   }
+    .team-members-area .item {
+        margin-bottom: 30px;
+   }
+    .team-members-area .item:last-child {
+        margin-bottom: 0;
+   }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+   /* Heading */
+    h1 {
+        font-size: 30px;
+   }
+    h2 {
+        font-size: 26px;
+   }
+    h3 {
+        font-size: 20px;
+   }
+    h4 {
+        font-size: 18px;
+   }
+    h5 {
+        font-size: 16px;
+   }
+    h6 {
+        font-size: 14px;
+   }
+
+    .default-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+   }
+
+    .default-padding.bottom-less {
+        padding-top: 50px;
+        padding-bottom: 20px;
+   }
+    
+    .site-heading {
+        margin-bottom: 30px;
+   }
+    
+    #google-maps iframe {
+        position: inherit;
+        min-height: 300px;
+   }
+    .team-members-area .item {
+        margin-bottom: 30px;
+   }
+    .team-members-area .item:last-child {
+        margin-bottom: 0;
+   }
+}
+
+.social-links.sl-default a {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    /* float: left; */
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+  }

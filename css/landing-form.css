@@ -1,0 +1,208 @@
+body
+
+.loginBox
+{
+	/* position: absolute;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 550px;
+	padding: 40px; */
+	/* top: 50%; */
+	/* left: 50%; */
+	width: 85%;
+	/* height: 550px; */
+	padding: 40px;
+	border-radius: 10px;
+	/* box-sizing: border-box; */
+	/* background: rgba(255,255,255,.3); */
+	background-color: white;
+	/* background-position: center; */
+}
+
+.loginBox h2{
+	margin: 0;
+	padding: 30px 0 40px;
+	color: #4ECCA3;
+	font-family: "Lalezar", cursive;
+	text-align: center;
+}
+
+.loginBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.loginBox input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"],
+.loginBox input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid gray;
+	border-color: gray;
+	border-radius: 0px;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginBox input:focus {
+	/* outline: none !important; */
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: black;
+  }
+
+.loginBox select:focus {
+	/* outline: none !important; */
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: black;
+}
+
+.loginBox select[type="text"]{
+	border: none;
+	border-bottom: 1px solid gray;
+	border-color: gray;
+	border-radius: 0px;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: gray;
+	font-size: 16px;
+}
+
+::placeholder
+{
+	color: gray;
+}
+
+.loginBox input[type="submit"]
+{
+	padding: 10px 27px 5px 27px;
+    line-height: 48px;
+    border: 1px solid;
+	font-size: 22px;
+	background: #4ECCA3;
+	margin-top: 10% !important;
+	color: white;
+    font-family: "Lalezar", cursive;
+}
+
+.loginBox input[type="submit"]:hover
+{
+	background: #4ECCA3;
+}
+
+.loginBox .a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.txt2:hover
+{
+	color: black;
+}
+
+@media screen and (max-width: 988px)
+{
+	.loginBox
+	{
+		width: 350px;
+		height: 560px;
+	}
+}
+@media screen and (max-width: 640px)
+{
+	.loginBox
+	{
+		width: 350px;
+		height: 560px;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	.loginBox
+	{
+		right: 10px;
+		width: 320px;
+		height: 560px;
+	}
+}
+
+/* input tag style */
+
+/* .draw {
+	transition: color 0.25s;
+}
+
+.draw::before, .draw::after {
+	border: 2px solid transparent;
+	width: 0;
+	height: 0;
+}
+
+.draw::before {
+	top: 0;
+	left: 0;
+}
+
+.draw::after {
+	bottom: 0;
+	right: 0;
+}
+
+.draw:hover {
+	color: #60daaa;
+}
+
+.draw:hover::before, .draw:hover::after {
+	width: 100%;
+	height: 100%;
+}
+
+.draw:hover::before {
+	border-top-color: #60daaa;
+	border-right-color: #60daaa;
+	transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+
+.draw:hover::after {
+	border-bottom-color: #60daaa;
+	border-left-color: #60daaa;
+	transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+.buttons {
+	isolation: isolate;
+} */
+
+.aa:after{
+	display      : block;
+    content      : '';
+    border-bottom: solid 5px #fff;
+    transform    : scaleX(0);
+    transition   : transform 300ms ease-in-out;
+}
+
+.aa:hover:after{
+	transform: scaleX(1);
+}
+
+.aa.jkjk:after {
+    transform-origin: 100% 50%;
+}
