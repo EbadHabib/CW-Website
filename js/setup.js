@@ -24,6 +24,7 @@ $('.main-menu').append(`
                 <li><a href="about.html">About</a></li>
                 <li><a href="javascript:void(0)" class="button" id="one">Services</a></li>
                 <li><a href="our-works.html">Our Work</a></li>
+                <li><a href="https://catchworldinternational.net/profile/" target="__blank">Portfolio</a></li>
                 <!--<li><a href="blog.html">Blog</a></li>--!> 
                 <li><a href="javascript:void(0)" class="contact">Contact</a></li>
             </ul>
@@ -112,7 +113,7 @@ $('.prt_contact_wrapper').append(`
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="prt_contact_map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.7149899484166!2d-92.46035748446522!3d33.534795052266986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862d89d84d550aef%3A0xc554ea1ecff51963!2s368+7th+%237%2C+Hampton%2C+AR+71744%2C+USA!5e0!3m2!1sen!2sin!4v1506497917270" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.807569576264!2d-73.99043689999999!3d40.74425960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a5d1fb95a1%3A0xef42bb82af5e727f!2s30%20W%2026th%20St%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2s!4v1696870111669!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="prt_contact_details">
@@ -120,7 +121,7 @@ $('.prt_contact_wrapper').append(`
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="prt_contact_details_box details_box1">
                             <h4 class="text-center"><i class="fa fa-phone"></i>&ensp;Phone</h4>
-                            <p class="text-center"><a href="tel:+1 (347)5354318">+1 (347) 535-4318</a><br><!--01-202-555-0125--></p>
+                            <p class="text-center"><a href="tel:+1 (347)5354318">+1 (347) 535-4318</a><br></p>
                             <br>
                         </div>
                     </div>
@@ -134,7 +135,7 @@ $('.prt_contact_wrapper').append(`
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="prt_contact_details_box details_box3">
                             <h4 class="text-center"><i class="fa fa-map-marker"></i>&ensp;Address</h4>
-                            <p class="text-center">30 W. 26th Street,<br>Sixth Floor New York<br>NY 10010 US</p>
+                            <p class="text-center">30 W. 26th Street, Sixth Floor New York<br>NY 10010 US</p>
                         </div>
                     </div>
                 </div>
@@ -166,7 +167,7 @@ $('footer').append(`
             <div class="contact-info-holder">
                 <div class="title">Call us</div>
                 <div class="contact-info">
-                    <a href="tel:+1 (646) 889-9879">+1 (646) 889-9879</a>
+                    <a href="tel:+1 (347) 535-4318">+1 (347) 535-4318</a>
                 </div>
             </div>
         </div>
