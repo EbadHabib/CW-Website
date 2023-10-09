@@ -43,7 +43,7 @@ $('nav').append(`
     <div class="row">
         <div class="col">
             <div class="logo-holder">
-                <a href="index.html"><img class="logo" src="./images/CW Logo.png" alt="CW"></a><!--style="min-width: 120px;"-->
+                <a href="index.html"><img class="logo" src="./images/CW Logo.png" alt="Catchworld"></a><!--style="min-width: 120px;"-->
             </div>
         </div>
         <div class="col text-right">
@@ -152,7 +152,7 @@ $('footer').append(`
                 <span>speak to our experts today!</span>
             </div>
             <div class="normal-text">
-                <p>CW helped B2B and B2C businesses to generate better customer<br>
+                <p>Catchworld helped B2B and B2C businesses to generate better customer<br>
                 insights and improve brand marketing.to the next level.
                 <br>
                 We develop campaigns that will make a long-term difference
@@ -193,7 +193,7 @@ $('.prt_footer_wrapper').append(`
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <p>Copyright © 2023 <a href="cw-design.com">CW-Design</a>. All Rights Reserved</p>
+                <p>Copyright © 2023 <a href="cw-design.com">Catchworld</a>. All Rights Reserved</p>
                 <!-- <ul>
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
