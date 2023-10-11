@@ -43,7 +43,7 @@ $('nav').append(`
     <div class="row">
         <div class="col">
             <div class="logo-holder">
-                <a href="index.html"><img class="logo" src="./images/CW Logo.png" alt="Catchworld"></a><!--style="min-width: 120px;"-->
+                <a href="index.html"><img class="logo" style="width: 80px;" src="./images/CW Logo.png" alt="Catchworld"></a><!--style="min-width: 120px;"-->
             </div>
         </div>
         <div class="col text-right">
@@ -128,7 +128,7 @@ $('.prt_contact_wrapper').append(`
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="prt_contact_details_box details_box2">
                             <h4 class="text-center"><i class="fa fa-envelope"></i>&ensp;Email</h4>
-                            <p class="text-center"><a href="javascript:void(0)">cw-design@gmail.com</a><br><a href="javascript:void(0)">cw-design@gmail.com
+                            <p class="text-center"><a href="javascript:void(0)">Catchworld@gmail.com</a><br><a href="javascript:void(0)">Catchworld@gmail.com
                             </a></p>
                         </div>
                     </div>
@@ -175,7 +175,7 @@ $('footer').append(`
             <div class="contact-info-holder">
                 <div class="title">E-mail</div>
                 <div class="contact-info">
-                    <a href="mailto:cw-design@gmail.com">cw-design@gmail.com</span></a>
+                    <a href="mailto:Catchworld@gmail.com">Catchworld@gmail.com</span></a>
                 </div>
                 <div class="social-media">
                 <div class="social-link-holder"><a href="#"><i class="fa fa-facebook"></i></a></div>
@@ -193,7 +193,7 @@ $('.prt_footer_wrapper').append(`
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <p>Copyright © 2023 <a href="cw-design.com">Catchworld</a>. All Rights Reserved</p>
+                <p>Copyright © 2023 <a href="Catchworld.com">Catchworld</a>. All Rights Reserved</p>
                 <!-- <ul>
                     <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

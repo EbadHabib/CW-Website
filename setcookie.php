@@ -2,7 +2,7 @@
     setcookie('my_cookie', 'cookie_value', [
         'expires' => time() + 3600,
         'path' => '/',
-        'domain' => 'CW-Design.com',
+        'domain' => 'Catchworld.com',
         'secure' => true,
         'httponly' => true,
         'samesite' => 'None'
