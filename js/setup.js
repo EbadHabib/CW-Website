@@ -23,7 +23,7 @@ $('.main-menu').append(`
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="javascript:void(0)" class="button" id="one">Services</a></li>
-                <li><a href="our-package.html">Our Packages</a></li>
+                <li><a href="our-package.html">Packages</a></li>
                 <li><a href="our-works.html">Our Work</a></li>
                 <li><a href="https://catchworldinternational.net/profile/" target="__blank">Portfolio</a></li>
                 <!--<li><a href="blog.html">Blog</a></li>--!> 
